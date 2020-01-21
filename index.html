@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Links-R-Us</title>
 </head>
 <body>
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Creator's sites</a>
+                        <a class="navbar-brand" style="color: lightslategray;">Creator's sites</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
@@ -26,9 +26,6 @@
                           <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                               <a class="nav-link" href="https://mflorez31.github.io/Portfolio/">MyPortfolio Page <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="https://pixabay.com/">Source of Artwork</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -43,9 +40,6 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="https://mflorez31.github.io/Portfolio/">MySite</a>
                               </div>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link disabled" href="#">Disabled</a>
                             </li>
                           </ul>
                         <span style="font-size: 48px; color: black;">
@@ -74,16 +68,19 @@
         </nav>
       </div>
     <div class="jumbotron">
-        <h1 class="display-4">Welcome to Links-R-Us!</h1>
-        <p class="lead">This site utilitizes Html + CSS with Bootstrap to showoff a simple webpage with some cool links. Click the drop down in the top left for some cool links about me.</p>
+        <h1 class="display-4" style="color: whitesmoke;"><strong> Welcome to Links-R-Us! </strong></h1>
+        <p class="lead"><strong> This site utilitizes Html + CSS with Bootstrap to showoff a simple webpage with some cool links that can be used to start creating webpages. </strong></p>
         <hr class="my-4">
-        <p>Big shout out to Bootstrap my favorite framework to create quick and simple webpages. Click the button below to check the Bootstrap webpage. </p>
+        <p>Bootstrap my favorite framework to create quick and simple webpages. Click the button below to check the Bootstrap webpage. </p>
         <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" role="button">Bootstrap</a>
+        <br>
+        <br>
+        <h6 style="color: whitesmoke;">Click the drop down in the top left for some cool links about me.</h6>
       </div>
-    <div class="container">
+    <div class=".container-fluid">
         <div class="row">
-          <div class="col-sm">
-            <h3>I use Trello but here are some great Kanban Boards</h3>
+          <div class="col-sm" style="padding: 20px 10px 20px 15px;" >
+            <h5>I use Trello but here are some great Kanban Board links. Kanban boards help organize your projects as a team. </h5>
             <ul class="list-group">
                 <li class="list-group-item"><a href="https://trello.com/">Trello</a></li>
                 <li class="list-group-item"><a href="https://monday.com/">monday.com</a></li>
@@ -91,12 +88,59 @@
                 <li class="list-group-item"><a href="https://meistertask.com/">MeisterTask</a></li>
                 <li class="list-group-item"><a href="https://www.clarizen.com/">Clarizen Go</a></li>
               </ul>
+              <h5>Here is Trello in action in this project. </h5>
+              <img src="Pics/Trello1.png" style="width:auto; height: 227px;">
+              <br>
+              <img src="Pics/Trello2.png" style="width:auto; height: 210px;">
           </div>
-          <div class="col-sm">
-            One of three columns
+          <div class="col-sm" style="padding: 20px 10px 20px 15px;">
+            <ul class="list-unstyled">
+                <h5>Wireframing is important to designing a webpage. I use Balsamic. Here are some helpful links to wireframing sites</h5>
+                <li class="media">
+                  <img src="https://dynomapper.com/images/balsamiq-logo.png" class="mr-3" alt="..." style="width: 90px; height: 90px;">
+                  <div class="media-body">
+                    <a href="https://balsamiq.com/"><h5 class="mt-0 mb-1" >Balsamiq</h5></a>
+                    Low-fidelity wireframing tool for designing great web apps, desktop software, websites and user interfaces
+                  </div>
+                </li>
+                <li class="media my-4">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABIFBMVEXxjQD///+GTwDxiwDxiQDwhgCDTQCGTgCETAD0jwDxjwD//vyDSgD++vP//Pf98OKBRgDylA/ylAD+9urafwDsigD++vH97dqARACWWADznCL1qUz8586KUQDcgQDNeAD73LT5z533woXylR760qf5zpSzaQCqZAD73b7zojD2sVT61rXzmxv74sn0pUH2uHX85sT1rV30pDCfXQD0q0TBcQD2u4H2vGvyliv2r0r2s2n2uG/62a34xor74734x5Ph077OuJfUw66OWxj0qVbymjn3xHz2v4vgnk6vkG2LXCaqhFLs5dmwjmHi18mngU+Zay29ooaifFaUZznowZW/pHzn0bGTZDK4mnXTv6KcbibSwrKSYBO+ppCddU71r2sX+i9PAAARfklEQVR4nNWde1fbutKH7YycUCd2cFJiyIUmgUASINzKpaEplEL22+4USvv27PZ0d5/v/y2O7ISQi22NLNnk/P7qatcqfpA0I41GM4oaqdKmaRp2tdE/a79uFYuWpSu6ZRWLrdfts36jahv039PRfoIS2f9cyGftZq99lNM0jVCBI4XK/QM4f0X/JXfU7jXtbL4Q2XdEQ1iw93bqpV2iOWBKkBxUjeyW6jt7dj6Sb4mA0G5u7pcsZ9QC2aY4KWauc1HbKcufspIJ0we105sN4KGbHE2rdFqTDSmV0G4c3uph6CYo9dvDRlnmR8kjLDRK5zowlh0GEvTzUkOe5ZFFWG671lIQb0xJyJsDSV8mg9DM1ooakQM3hiRasWGbEr5OnLBQrluapMGbhtSs+p64BxElzDdPc5HwuYwkd9EUZRQjLFS7OQHTiWG0uptijEKE1e6GLOMSwLhx+FbERQoQvitFz+cywkZJwLCGJsyfsbacMhlJOxszYb6hS3YPDBG9EXI5hiI0qp1I7YuXgHSqRlyE5XrMAzgU0U/DbFj5CQub8Q/gUEBam/zDyE1o7z/LAA5F9H3uYeQlrHZis6BeAui8jZSw0Nefk89lVPp8JysuwnIxsi0oB6JWtCMiNJvPuAInRfQmx7EKT5i/fNYVOCmAS7z7RxPaF8qiADqIXfRMxRKWSwszgo4ASli3gSRsthYK0EFsNWUSVq3F4nMEOs4zoggbC+Ak5gVaQxKh2dCeG8ZHWgPhNdiEhd4CGdFpAfTY+xsmYb737Bs1f4FeZzpGFmGhvsCAFNGqs0aRQWgu8gg6Ar3HWIsMwsaCucF5ATAsajDhYrqJabGcRiBhdVHdxLS0QNcfRNhcwJ2Ml0AP2sAFEJZb/xuAFLEVsA33J7RL/yuAFLHkf5jyJcx3F96MPgngwtfz+xGa8Z/oRS7JQbn0c4t+hDvRAoKHFH38pzD/oZ+18SEsR7mVcdItNm5Lh/3G2+q7d+8OqrX+WelcL6v5g1r/5vZ8I8xwgu6zFL0JC8XIompAlI2b/ca72XVjvxv9wSy/rR92LO60HFL03qF6E/ajcvVArMPLKvMu0Chv/nFjcTJqfTxhNaI5CqT1RxN71Wk3LzvAM5VAqWIJy51IAIHkajbP3ZFp77QJByN0vBy/B6GxHw0gXGS5Mw4K5dccm3/Y9/gFehBuRjFHgRQPQmVUmM0WmhH0TQxhuSPfjlL34L/pYDI20DkfxGOezhEapxEA6mIpMeVDNOLp3DydI5RvR4F0RJMp83VkvA/0OXs6S5iXPkcBuntifFRp7DaZdGZXwyxhQzogIuCHkHmB/DAyG9OYIczLnqMUMFQWzJzKOew8nfmFzhC2ZSfCQl9SYnq6htxJknYQ4YF0wAs5fFSD/8PO0+k0vynCtOzABZEHqKrXJyuoHwolf8K3G3IJSUnm2wnj4zYKETamPMYkYeFQMmCLKy2EqatPWy9QiIeT7neSsCp3CMHyPM2EV/rj0ksM4vQgThDmu3KHEHyDQ2F19ekY95O7Ex5jgrCJ9DhIkcPQab2++jNzghpEayIs9USY35fqKmbWuxwNVtfWMYhk/2klPhHuyR1CpS4fUFU/L29hfjbknrbCY0KzLjX6BB25dnSkQWYNZWy0+tgGjAmzki+aalEAuoOIcYpgjY3AmBC77cMJWnL223O6W0IOYm2OsCh1CIMvLQVk3Gdwg1icJTyQO4S5iABV9ddq5SXmE7THiM0j4RupriKyIaS25ksGtT0dH6JGhAW5vnBX9m7mSebDcnId8xGkMEUoN3hBahHWSfhVSW6jvH5jilDqwRCsSHzhSIP7JdQgPh4Th4Tlc5mERFJoxlvONMWcouDcniCUmtsVnPwhrp+VZAX1GY0nwrTUcxMJSIyQoau/llKvMIPYTY8JD26lEl5GCqjmv2aSxxjC2/KYsCZ1khZxkzRtGkbBblbfvm2Ws4ZhmGgP8zGTwhyiwKo9EqalXsaQLiLGXciWa2dHuvYokiu26zt2FmWi3idSFcxJmJymR4T2jUxC+IP5idlmvQXa1Dtit06N3qk3y+yhvPqUSm4jvoTc2CPCptwIFGsZGr6P+CkmtP5osi6qjG9LyTWES4Td5ohwU+oQDme/v8r7gUkWQDa6VcY4/pNJVVDWdHNIKDdAA+fvAr9uh/n6BmDjMPjJz+dMIolaiE64hhLaUlMvyE3QJDP/H2O2AazAw8l3Sog5YLgpi4r0EFRgBMpeQf0sIMWgvfv7pUQS5S+cgBQl3JHqK+buYCeVvsQctOkQngW6jeulVAK1ELUdh7BQl0hIrMBVaCLSjoEoN5vBpuaKEuIWIj0DKGq+JInQKTNXDD7c28wfBVrusMba1945hJhwDWnnKWF2V9IybLVIibFh6wcTUnfYudxjXwYMHEKUqdnNUkL27xUlKGXtJuuXH2TT6KamWN/LYnanLuEx6hjsEDalRNkAEEemPb8fBUTTdnu2gdx8u4SoGwytqSppOYYG9drR2/HSHYDV4arN4hCmKpjIMOmlFVNK+gV5g/iwf3msHGqeNm5qnBk3ji1N4AjbpmIeSTA0sIE51s9dojtFBDv7/LdwPx1C1H0wHFFCCTsa0DcR4cOr85nTEsl19mthSs7QPU0ikUQR5kzFkGBoyAUmM+/7o/GjdoXkWof1nWY5XEYf3ZciCRViKLY44SggwtL1Sxji7XZre2U7Hz7k+CeeULMV8Rd4oONCT+mrHJ2ZRz07XxAMif+DnqWKVlXE4/nkEDvXstCXkb0w+MshTOFmaUNhbKTYiiQlIVA/P1BTivMWCukrZ8KE3ZgB1R8OICqgSAnPFFGHD7rUmrgIGV9dQ4OJRTkuX3kt6A5JJ2ZAJ6rvECLT+F4rok9hI7zu9dHvhDNLUedDJ2VCEcxQAD3iovFzyn90Jik94+O+r6gInn9RW26punItKS5O45yBFcFEodgn6eB+2R3CY5QpVcBSLCFAgGiK4fsDfnYBsYbGIdTFCItRXmjPy/ix6gImUJdPjsT4HHcTK6H5MAJM4nK/JDCSs+gyZ+ZlPGRSI0LM7dqIT2wdkn6MhPkfqREgfpJSPjFbGidh/uPSI2ASl++tuJZGzB+Si9gI774sjwHX0B9I/aHYniY2S2NeVzKJMeAK2szQPY3YvvTwbTxjOHhYXXoCxDn7IWFL6GwBxXhOTsav+9XUGPAYlV/6+Imvhc6HqMQScd39+DCeoZyAzvlQ5IwfUUL+tIyHb2MnkUBeyEwQnonFaUgvakOT/v5XIjMBiNyOPn1hXyzWBrvRDqL5vpJZmuBDXfxOEzYE46Wa+DNtf7zBQ+XJwCToyZ5jMzr+wKpgzJtcRnXEz9/9mOJLJCtbHF5iTGgL3luQdiT+0Lz79TmxPMWX2H6F9/MTH2gI3j2BEoFHHFw/fMtkJvlSybWTMHzu3ZPg/aHWkjyI5vWPrx9m+Son60oYwOH9oVBImPSkPqNMX/3450NqCm/IF2oAleEdcLon5C70njQ84+efHxJLs3iUj9MFThH20qK5GKC9EZ+macO4+/7v1dVMagovkUxVjl+Fm54jObkYalbw4kKwqoA5GNw93FdWlzOJadHZubb96oUInwJuPo1oThSch23GlM4P7n49/Pk3pUvN4SXXtsOal4lvK2Zl5LWFWor5u+vr3x/v/16ep3N2Z5Xtk5crYuPnaJjXJpybSPb54IzB9fuHr98+JJYzHnQUL3F88lJ4+Iaf5uYmqjuCN/nkP/gDxuD6+8d/vn2qZDKzVmVEl0xtv1pfkYKnPOaXCucIkxvUOdi4+n7/6UOS+oMlLzi68uja23op4Brm9JgjLJrnDTfBXj+dNgfvP/+96hiUlA9colJZ26IbT/GlN/VlozzvgmCuPjkMHsMr6gtWl5fmyYZwqcra2vbWq3XJdO6XnRakvLcg/wn2+b+97MlwWlbWjre3XKspnc7R43sL0TczLFv6s+Lh7Ry4rZNXL9ejolOcPJjHNzOi754YFTCmCV2DEjmcq6d3T2Jv15jPgJ4Ik46vo0tufYX6g0jhXJFTVZXx/pD1DEi9dgmTQ0++siLN2TE/7On9odgbUrhluEN3DCtDXxAT3OjDnt6QpkVKYMFNMKBLyHXXIEmT74DVhsA0ZRadeybCqbfcqi3yHr+GIuQPdQpq+j2+QE0FUFhh75+JVCL1DIRTNRUE6mI8FYLx0++lxHMQztTFCF/bhJwxCZefh3C6tkn4+jTstK/nIZytTxO+xpDGOhwaD8t8GT5yNFdjKGydKHa9JMPJlozdW8D4ma1orS9yxCIcfH0OQo9aXyHrtbENzeA+g87KlibnaeUsYciae8S75cKE7r6k+K/fReVVcy9kQIowg6W/Ki6hzAgTU551E0OWVvBpmzFJ6KS84hPRpMi79mWYFl2kW2McDp2yTg4hqjyXLPnULw1TgxYC6wsM/1c3tT4VKyHxqUEboo4woujV4It7qYSrcSxHvnWEw9SCJiVWRH/gxjDwGa8SBF2/WtD89bxBZ1bX++VkZuPKyUhSQD1v/prshNUic2RoUnE6/KCa7Lx19aHITIky7t1nWPikXnEF1dXn7Y3g3X5oSgM37wdVX02SZveRQv0tEGP4030ggSp0KEes/hac4QzCfId/P3xoFp+hYfUo4ewzQ0qMhKHB8N4JV1NVhth9Zjh7BQGjy9F7d5KmKnENoccWZL7fE1fiAquq9Rf3YjS+XSmm3xNnz67gE/DdaJLGtQxRPbt4+65pQYeLz8NEp2RMh0Nk3zXO3nlg+R8vBp+GkzSuwyG2dx5n/0O48DU2D4nhJMU9ShaW9+MI8R6W/lUjBt+Gk7QSj6/w6LnmS6hyRaXAJ9sk/TiEvG8kQkrzzifwJjR4esnCufcg3g1dBbWk0VFNiLR4esmqNsc8hZyHBaO7o0dDGk8wmLMfsKo28T2HwfIiTF+PXhPEY2e4ezpz9eUGkmvvDY/CadMYXH+//7syzhuNZwhD9OXm660OhJwO0sbg7nqYobc0kaGHan0jqDC91elS5AtpkH//dtO1ZzL0YhrCgDLw/oScjv/FCaWbT9GLJcgGrYBYQwChesAVBF9PeiQgxnJfMRXi5iJUuV7urTt5XdMZelRxXP1qgaW4AgnVBkfLaGX9ZG3I6CRXptz0w5cxLEJglN0MJlQbyD68jl68ePFqLZFMVJyXEi9GihBtKABGXVEGodnjWosvVraO3RS9yIBmBTorKM0gVA3O9iVx5x9aPVbBPxahmpfaoUWyMO2UmYRqgWctxisA5ghiCFVTbtM5idIaiJeBCEJOpxGbWG6Ch1CtSm6OKEPYVrU4QnWvw3HSiEMAt8iuUkhCtVxaKERQSthn8lhC1b5YIJMK0EUX5EATqvnawiACXOIL4+AJVbOZk9xcPqSI3uR4P85BSGdqcQHcBmh8Dc25CFWj/uxbOND7fGXO+QipZ3xetwHQ4a08zUuo2vv6861Gou9z11LhJlSNzU5Qz60IBaSzyV+Xip+Qev/6swwj0U/DFMMJQ6ga1fiHkQ5gM1RhsVCEjvuP2TcSnatPizghZTwjsVlVAKfARUiFJlTVg9JGLIwAG6Ww5VPECFX1XTd6RqdXICMtKUJCpx1lYLtGcT5idavhWrXIIaTLsXmai2yzClruoilaXlOUUFUL5boVCSNoVn1PvHyoOCE9VmU3W5rkyQpEK9ZQTdhYkkHoqNwm1HtIonSaQb0RMJ9TkkXoRI5L57o4JP0f9PNSQ8y6TEoeIZVd695aRGC+0rGzbrsNqUVRpRKqarpcO73ZhTCUTrvjjZvTWllyvVDJhI7s5uZpiQ4lB6XTsjrX2d9ktogMoQgIqQr23k69vQsaYW1e3X7csNuu7+zZ0RSWjobQkZHPZpu99lGOaBTUtbRDWvcPTus85x9yR+1eM5sVaMLGUnSErtKmaRp2tdE/a79uFYuWpSu6ZRWLrdfts36jahv03yNuxfNfE6KdZTW5BI0AAAAASUVORK5CYII=" class="mr-3" alt="..." style="width: 90px; height: 90px;">
+                    <div class="media-body">
+                      <a href="https://balsamiq.com/"><h5 class="mt-0 mb-1" >Pencil Project </h5></a>
+                      A quick wireframe tool focuses on diagrams and GUI prototype
+                    </div>
+                </li>
+                <li class="media">
+                    <img src="data:image/png;base64,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" class="mr-3" alt="..." style="width: 90px; height: 90px;">
+                    <div class="media-body">
+                      <a href="https://www.mockplus.com/"><h5 class="mt-0 mb-1" >Mockplus</h5></a>
+                      A simple & clean tool makes you focus on the design instead of spending time on learning it
+                    </div>
+                </li>
+              </ul>
+              <h5>Here is my Balsamiq wireframe for this project</h5>
+              <img src="Pics/Balsamiq.png" style="width:auto; height: 310px;">
           </div>
-          <div class="col-sm">
-            One of three columns
+
+          <div class="col-sm" style="color: black; padding: 20px 10px 20px 15px;">
+            <h5 style="color: ivory;">A good code editor is escentual. Here are the 2 I have used and are the only ones I would recommend. </h5>
+            <div class="card" style="width: 18rem;">
+                <img src="https://elegantthemes.com/blog/wp-content/uploads/2019/01/000-Best-Code-Editor-VS-Code.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Visual Studio Code by Microsoft</h5>
+                  <p class="card-text">A code editor redefined and optimized for building and debugging modern web and cloud applications.</p>
+                  <a href="https://code.visualstudio.com/" class="btn btn-primary">visualstudio.com</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/001-Best-Text-Editors.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Atom</h5>
+                  <p class="card-text">Atom makes collaborating on code just as easy as it is to code alone, right from your editor.</p>
+                  <a href="https://atom.io/" class="btn btn-primary">atom.io</a>
+                </div>
+              </div>
+            
           </div>
         </div>
     </div>    
@@ -106,4 +150,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
 </html>
